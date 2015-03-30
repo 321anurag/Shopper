@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="icon">@color/icons</item>
+        <item name="divider">@color/divider</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoComplete.Widget.CustomStyle</item>
+        <item name="android:textColorHighlight">@color/primary_light</item>
+    </style>
+
+    <style name="AutoComplete.Widget.CustomStyle" parent="android:Widget.AutoCompleteTextView">
+        <item name="android:background">@drawable/auto_complete_background</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+        <item name="android:popupBackground">@drawable/abc_popup_background_mtrl_mult</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/l_spacing"
+    android:paddingTop="@dimen/m_spacing"
+    android:paddingBottom="@dimen/m_spacing"
+    android:paddingRight="@dimen/l_spacing">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/item_name"
+                android:id="@+id/textViewItemName"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/primary_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButtonRemove"
+                android:src="@drawable/remove_button"
+                android:adjustViewBounds="false"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center_vertical" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButtonEdit"
+                android:background="@android:color/transparent"
+                android:src="@drawable/edit_button"
+                android:layout_marginRight="5dp"
+
+                android:layout_gravity="center_vertical" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButtonInCart"
+                android:src="@drawable/cart_button_add"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

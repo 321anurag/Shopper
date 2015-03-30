@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ActivityMain">
+
+    <item
+        android:id="@+id/menu_remove_all_items"
+        android:title="@string/menu_remove_all_items"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_remove_cart_items"
+        android:title="@string/menu_remove_cart_items"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu_send_list"
+        android:title="@string/menu_send_list"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

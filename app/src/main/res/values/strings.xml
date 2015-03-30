@@ -1,0 +1,300 @@
+<resources>
+    <string name="app_name">Shopper</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8060400006725241/5083256218</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="item_name">Item Name</string>
+    <string name="menu_remove_all_items">Remove All Items</string>
+    <string name="menu_remove_cart_items">Remove Items in Cart</string>
+    <string name="menu_send_list">Send/Share List</string>
+    <string name="ok">OK</string>
+    <string name="list_empty_message">"Your shopping list is empty"</string>
+    <string name="warning">Warning</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sure_to_remove_all_items">Do you want to remove all items from the list?</string>
+    <string name="sure_to_remove_cart_items">Do you want to remove items, that you added to the cart, from the list?</string>
+    <string name="sure_to_remove_one_item">Do you want to remove selected item from the list?</string>
+    <string name="items_removed">Items removed from the list</string>
+    <string name="item_removed">Item removed from the list</string>
+    <string name="removed_from_the_list">removed from the list</string>
+    <string name="do_you_want_to_remove">Do you want to remove</string>
+    <string name="from_the_list">from the list?</string>
+    <string name="empty_input_error_message">Item name is empty. Can\'t add to the list</string>
+    <string name="item_name_not_empty_warning">You already entered new item but didn\'t save it yet. If you continue that item will be replaced with current item. \nDo you want to continue?</string>
+    <string name="moved_to_cart">moved to cart</string>
+    <string name="removed_from_cart">removed from cart</string>
+    <string name="send_list_using">Send List Using&#8230;</string>
+    <string name="please_buy">Please buy:</string>
+    <string name="list_empty_or_all_items_in_cart">There are no items or all are already in cart</string>
+    <string name="no_items_in_cart_yet">You don\'t have any items in the cart</string>
+    <string name="no_items_in_list">You don\'t have any items in the list</string>
+
+
+    <!-- COLORS -->
+    <color name="primary">#FF5722</color>
+    <color name="primary_dark">#E64A19</color>
+    <color name="primary_light">#FFAB91</color>
+    <color name="accent">#FF5722</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+    <!-- Grey -->
+    <color name="material_grey_200">#EEEEEE</color>
+    <color name="material_grey_300">#E0E0E0</color>
+    <color name="material_grey_400">#BDBDBD</color>
+    <color name="material_grey_500">#9E9E9E</color>
+    <color name="material_grey_900">#212121</color>
+
+    <!-- Shopping items examples -->
+    <array name="shopping_items">
+
+        <!-- Dairy -->
+        <item>Eggs</item>
+        <item>Milk</item>
+        <item>Butter</item>
+        <item>Margarine</item>
+        <item>Sour Cream</item>
+        <item>Whipped Cream</item>
+        <item>Yogurt</item>
+        <item>Cottage Cheese</item>
+        <item>Cream Cheese</item>
+        <item>Parmesan Cheese</item>
+        <item>American Cheese</item>
+        <item>Cheese</item>
+
+        <!-- Meat, poultry  -->
+        <item>Bacon</item>
+        <item>Sausage</item>
+        <item>Deli Meat</item>
+        <item>Hot Dogs</item>
+        <item>Chicken</item>
+        <item>Turkey</item>
+        <item>Beef</item>
+        <item>Pork</item>
+        <item>Veal</item>
+        <item>Ground Beef</item>
+        <item>Ground Pork</item>
+        <item>Ground Veal</item>
+        <item>London Broil</item>
+        <item>Ham</item>
+
+        <!-- Fish, Seafood -->
+        <item>Fish</item>
+        <item>Salmon</item>
+        <item>Tuna</item>
+        <item>Red Snapper</item>
+        <item>Snapper</item>
+        <item>Shellfish</item>
+        <item>Anchovies</item>
+        <item>Clam</item>
+        <item>Shrimp</item>
+        <item>Seafood</item>
+        <item>Oysters</item>
+        <item>Tilapia</item>
+        <item>Trout</item>
+        <item>Sardines</item>
+
+        <!-- Fruits -->
+        <item>Apples</item>
+        <item>Bananas</item>
+        <item>Strawberries</item>
+        <item>Blueberries</item>
+        <item>Raspberries</item>
+        <item>Cherries</item>
+        <item>Grapefruits</item>
+        <item>Grapes</item>
+        <item>Lemons</item>
+        <item>Limes</item>
+        <item>Melon</item>
+        <item>Oranges</item>
+        <item>Pears</item>
+
+        <!-- Vegetables -->
+        <item>Broccoli</item>
+        <item>Cabbage</item>
+        <item>Carrots</item>
+        <item>Cauliflower</item>
+        <item>Celery</item>
+        <item>Cucumbers</item>
+        <item>Garlic</item>
+        <item>Lettuce</item>
+        <item>Kale</item>
+        <item>Mushrooms</item>
+        <item>Onions</item>
+        <item>Peppers</item>
+        <item>Hot Peppers</item>
+        <item>Potatoes</item>
+        <item>Spinach</item>
+        <item>Tomatoes</item>
+        <item>Mixed Greens</item>
+        <item>Asparagus</item>
+
+        <!-- Breads -->
+        <item>Bread</item>
+        <item>Baguette</item>
+        <item>Bagels</item>
+        <item>Buns</item>
+        <item>Muffins</item>
+        <item>Rolls</item>
+        <item>Sliced Bread</item>
+        <item>Kaiser Rolls</item>
+        <item>Whole Wheat Bread</item>
+        <item>Pumpernickel</item>
+
+        <!-- Dry Goods -->
+        <item>Cereal</item>
+        <item>Oatmeal</item>
+        <item>Cookies</item>
+        <item>Crackers</item>
+        <item>Pasta</item>
+        <item>Noodles</item>
+        <item>Red Beans</item>
+        <item>Black Beans</item>
+        <item>Beans</item>
+        <item>Lentils</item>
+        <item>Peas</item>
+        <item>Rice</item>
+        <item>Bread Crumbs</item>
+        <item>Flour</item>
+        <item>Sugar</item>
+        <item>Pancake Flour</item>
+        <item>Gelatin</item>
+        <item>Potato Chips</item>
+        <item>Chips</item>
+        <item>Tortilla Chips</item>
+
+        <!-- Canned goods -->
+        <item>Tomato Sauce</item>
+        <item>Pizza Sauce</item>
+        <item>Tomato Paste</item>
+
+        <!-- Baking goods -->
+        <item>Baking Soda</item>
+        <item>Baking Powder</item>
+        <item>Corn Starch</item>
+        <item>Vanilla</item>
+        <item>Spices</item>
+
+        <!-- Sweets and snacks -->
+        <item>Chocolate</item>
+        <item>Nuts</item>
+        <item>Walnuts</item>
+        <item>Peanuts</item>
+        <item>Peanut Butter</item>
+        <item>Raisins</item>
+        <item>Dried Fruits</item>
+
+        <!-- Condiments -->
+        <item>Oil</item>
+        <item>Vinegar</item>
+        <item>Ketchup</item>
+        <item>Mayonnaise</item>
+        <item>Mustard</item>
+        <item>Olives</item>
+        <item>Pickles</item>
+        <item>Relish</item>
+        <item>Salsa</item>
+        <item>Salad</item>
+        <item>Dressing</item>
+        <item>Soy Sauce</item>
+        <item>Honey</item>
+        <item>Jelly</item>
+        <item>Jam</item>
+        <item>Syrup</item>
+        <item>Salt</item>
+        <item>Pepper</item>
+        <item>Paprika</item>
+        <item>Basil</item>
+        <item>Oregano</item>
+        <item>Thyme</item>
+        <item>Cumin</item>
+
+        <!-- Beverages -->
+        <item>Cocoa</item>
+        <item>Coffee</item>
+        <item>Tea</item>
+        <item>Juice</item>
+        <item>Orange Juice</item>
+        <item>Apple Juice</item>
+        <item>Cranberry Juice</item>
+        <item>Soda</item>
+        <item>Coke</item>
+        <item>Pepsi</item>
+        <item>Sprite</item>
+        <item>Dr Pepper</item>
+        <item>Fanta</item>
+        <item>Water</item>
+        <item>Sparkling Water</item>
+        <item>Beer</item>
+        <item>Wine</item>
+
+        <!-- Paper Products -->
+        <item>Facial Tissue</item>
+        <item>Toilet Paper</item>
+        <item>Napkins</item>
+        <item>Paper Towels</item>
+        <item>Aluminum Foil</item>
+        <item>Plastic Wrap</item>
+        <item>Lunch Bags</item>
+        <item>ZIP Lock Bags</item>
+        <item>Sandwich Bags</item>
+        <item>Garbage Bags</item>
+
+        <!-- Laundry and Kitchen -->
+        <item>Bleach</item>
+        <item>Detergent</item>
+        <item>Liquid Soap</item>
+        <item>Fabric Softener</item>
+        <item>Stain Remover</item>
+        <item>Cleaner</item>
+        <item>Dish Detergent</item>
+        <item>Dishwasher Detergent</item>
+        <item>Floor Cleaner</item>
+        <item>Furniture Polish</item>
+        <item>Glass Cleaner</item>
+        <item>Steel Wool</item>
+        <item>Sponge</item>
+
+        <!-- Personal Hygiene and Bathroom -->
+        <item>Toothpaste</item>
+        <item>Face Lotion</item>
+        <item>Sunscreen</item>
+        <item>Tampons</item>
+        <item>Pads</item>
+        <item>Shaving Gel</item>
+        <item>Shaving Cream</item>
+        <item>Toothbrush</item>
+        <item>Hair Gel</item>
+        <item>Face Wash</item>
+        <item>Razors</item>
+        <item>Hair Spray</item>
+        <item>Bath Soap</item>
+        <item>Deodorant</item>
+        <item>Shampoo</item>
+        <item>Antiperspirant</item>
+        <item>Conditioner</item>
+        <item>Hand Sanitizer</item>
+        <item>Body Wash</item>
+
+        <!-- Misc -->
+        <item>Bandages</item>
+        <item>Batteries</item>
+        <item>Candles</item>
+        <item>Light Bulbs</item>
+        <item>Paper Plates</item>
+        <item>Pet Food</item>
+        <item>Dog Food</item>
+        <item>Cat Food</item>
+        <item>Stamps</item>
+        <item>Vitamins</item>
+    </array>
+    <string name="title_activity_splash">Shopper</string>
+
+</resources>
